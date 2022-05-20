@@ -1,0 +1,40 @@
+/** @format */
+
+.about-img {
+	width: 600px;
+	height: 500px;
+	margin: 15px;
+}
+.about {
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	padding: 40px 30px;
+	right: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+	background-color: #2947a9;
+	box-shadow: 0px 8.02774px 9.63329px -1.60555px rgba(17, 24, 39, 0.1),
+		0px 3.2111px 3.2111px -1.60555px rgba(17, 24, 39, 0.04);
+	border-radius: 2px;
+	z-index: 2;
+	margin-left: -200px;
+	h4 {
+		font-family: "Work Sans";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 28px;
+		line-height: 17px;
+		/* identical to box height */
+
+		color: #ffffff;
+	}
+	p {
+		font-family: "Work Sans";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		color: #ffffff;
+	}
+}
