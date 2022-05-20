@@ -2,6 +2,7 @@ import { Stack } from '@mui/material'
 import './aboutus.scss'
 
 const AboutUs = () => {
+
     return (
         <Stack
             direction="row"
